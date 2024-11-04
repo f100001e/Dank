@@ -1,0 +1,20 @@
+2024-09-05 23:45:34,105 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-09-05 23:45:34,106 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/frankelliott/PycharmProjects/pythonProject/.venv/lib/python3.12/site-packages/instabot/bot/bot.py
+2024-09-05 23:45:34,106 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2024-09-05 23:45:34,109 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /Users/frankelliott/PycharmProjects/pythonProject/dank.insta-tool/config/engaged_ape_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e5b8bf6c-e588-491b-801b-1277547e8c6b
+- uuid=97e26533-9971-4f27-b028-e56a2c9c4fd2
+- client_session_id=1c2c2aa9-d23f-4dce-b967-332d8fd6be60
+- device_id=android-7b7d936fe0659a80
+2024-09-05 23:45:34,110 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-09-05 23:45:34,344 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2024-09-05 23:45:34,550 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-09-05 23:45:34,738 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-09-05 23:45:34,957 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-09-05 23:45:36,016 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-09-05 23:45:36,017 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","two_factor_required":true,"two_factor_info":{"pk":59776154508,"username":"engaged_ape","sms_two_factor_on":true,"whatsapp_two_factor_on":false,"totp_two_factor_on":false,"eligible_for_multiple_totp":true,"obfuscated_phone_number":"5946","obfuscated_phone_number_2":"+1 ***-***-**46","two_factor_identifier":"sceChu8gjE9gudw9TuXogiXCwfVhi2SSLuCTPBSFKkXSTvu5t4kBFcXGKUdhM8N9","show_messenger_code_option":false,"show_new_login_screen":true,"show_trusted_device_option":true,"should_opt_in_trusted_device_option":true,"pending_trusted_notification":false,"sms_not_allowed_reason":null,"trusted_notification_polling_nonce":null,"is_trusted_device":false,"device_id":"android-7b7d936fe0659a80","is_in_sowa_experience":false,"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true}},"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true},"status":"fail","error_type":"two_factor_required"}'
+2024-09-05 23:45:36,017 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-09-05 23:45:36,017 - instabot version: 0.117.0 (api) - INFO - Two-factor authentication required
+2024-09-05 23:45:55,748 - instabot version: 0.117.0 (api) - ERROR - Two-factor authentication request returns 400 error with message {"message":"Please check the security code and try again.","status":"fail","error_type":"invalid_verficaition_code"} !
+2024-09-05 23:45:55,749 - instabot version: 0.117.0 (api) - INFO - Two-factor authentication required

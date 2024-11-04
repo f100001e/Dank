@@ -1,0 +1,840 @@
+2024-09-05 22:31:02,255 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-09-05 22:31:02,256 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/frankelliott/PycharmProjects/pythonProject/.venv/lib/python3.12/site-packages/instabot/bot/bot.py
+2024-09-05 22:31:02,256 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2024-09-05 22:31:02,256 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /Users/frankelliott/PycharmProjects/pythonProject/dank.insta-tool/config/engaged_ape_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e5b8bf6c-e588-491b-801b-1277547e8c6b
+- uuid=97e26533-9971-4f27-b028-e56a2c9c4fd2
+- client_session_id=1c2c2aa9-d23f-4dce-b967-332d8fd6be60
+- device_id=android-7b7d936fe0659a80
+2024-09-05 22:31:02,256 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-09-05 22:31:02,587 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2024-09-05 22:31:02,738 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-09-05 22:31:03,043 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-09-05 22:31:03,210 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-09-05 22:31:05,295 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-09-05 22:31:05,295 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","two_factor_required":true,"two_factor_info":{"pk":59776154508,"username":"engaged_ape","sms_two_factor_on":true,"whatsapp_two_factor_on":false,"totp_two_factor_on":false,"eligible_for_multiple_totp":true,"obfuscated_phone_number":"5946","obfuscated_phone_number_2":"+1 ***-***-**46","two_factor_identifier":"yJ1Uu7n6GRxqAWRY3rhbOyFx1Gv49KzZlgxChZvAtjIagTIfUA05vcMZpOzHLkjU","show_messenger_code_option":false,"show_new_login_screen":true,"show_trusted_device_option":true,"should_opt_in_trusted_device_option":true,"pending_trusted_notification":false,"sms_not_allowed_reason":null,"trusted_notification_polling_nonce":null,"is_trusted_device":false,"device_id":"android-7b7d936fe0659a80","is_in_sowa_experience":false,"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true}},"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true},"status":"fail","error_type":"two_factor_required"}'
+2024-09-05 22:31:05,295 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-09-05 22:31:05,295 - instabot version: 0.117.0 (api) - INFO - Two-factor authentication required
+2024-09-05 22:32:04,915 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'engaged_ape'!
+2024-09-05 22:32:04,915 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2024-09-05 22:32:05,069 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-09-05 22:32:05,303 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-09-05 22:32:05,493 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-7b7d936fe0659a80&token_hash=&custom_device_id=android-7b7d936fe0659a80&fetch_reason=token_expired returned response: <Response [200]>
+2024-09-05 22:32:05,636 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2024-09-05 22:32:05,957 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-09-05 22:32:06,178 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [404]>
+2024-09-05 22:32:06,178 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'<!DOCTYPE html>\n<html lang="None" class="no-js not-logged-in ">\n    <head>\n        <meta charset="utf-8">\n        <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\n        <title>\n                  Page Not Found &bull; Instagram\n                </title>\n\n        \n        <meta name="robots" content="noimageindex, noarchive">\n        <meta name="apple-mobile-web-app-status-bar-style" content="default">\n        <meta name="mobile-web-app-capable" content="yes">\n        <meta name="theme-color" content="#ffffff">\n        \n        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">\n        <link rel="manifest" href="/data/manifest.json">\n\n        \n        \n        \n\n        <script type="text/javascript">\n        (function() {\n  var docElement = document.documentElement;\n  var classRE = new RegExp(\'(^|\\\\s)no-js(\\\\s|$)\');\n  var className = docElement.className;\n  docElement.className = className.replace(classRE, \'$1js$2\');\n})();\n</script>\n        <script type="text/javascript">\n(function() {\n  if (\'PerformanceObserver\' in window && \'PerformancePaintTiming\' in window) {\n    window.__bufferedPerformance = [];\n    var ob = new PerformanceObserver(function(e) {\n      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());\n    });\n    ob.observe({entryTypes:[\'paint\']});\n  }\n\n  window.__bufferedErrors = [];\n  window.onerror = function(message, url, line, column, error) {\n    window.__bufferedErrors.push({\n      message: message,\n      url: url,\n      line: line,\n      column: column,\n      error: error\n    });\n    return false;\n  };\n  window.__initialData = {\n    pending: true,\n    waiting: []\n  };\n  function asyncFetchSharedData(extra) {\n    var sharedDataReq = new XMLHttpRequest();\n    sharedDataReq.onreadystatechange = function() {\n          if (sharedDataReq.readyState === 4) {\n            if(sharedDataReq.status === 200){\n              var sharedData = JSON.parse(sharedDataReq.responseText);\n              window.__initialDataLoaded(sharedData, extra);\n            }\n          }\n        }\n    sharedDataReq.open(\'GET\', \'/data/shared_data/\', true);\n    sharedDataReq.send(null);\n  }\n  function notifyLoaded(item, data) {\n    item.pending = false;\n    item.data = data;\n    for (var i = 0;i < item.waiting.length; ++i) {\n      item.waiting[i].resolve(item.data);\n    }\n    item.waiting = [];\n  }\n  function notifyError(item, msg) {\n    item.pending = false;\n    item.error = new Error(msg);\n    for (var i = 0;i < item.waiting.length; ++i) {\n      item.waiting[i].reject(item.error);\n    }\n    item.waiting = [];\n  }\n  window.__initialDataLoaded = function(initialData, extraData) {\n    if (extraData) {\n      for (var key in extraData) {\n        initialData[key] = extraData[key];\n      }\n    }\n    notifyLoaded(window.__initialData, initialData);\n  };\n  window.__initialDataError = function(msg) {\n    notifyError(window.__initialData, msg);\n  };\n  window.__additionalData = {};\n  window.__pendingAdditionalData = function(paths) {\n    for (var i = 0;i < paths.length; ++i) {\n      window.__additionalData[paths[i]] = {\n        pending: true,\n        waiting: []\n      };\n    }\n  };\n  window.__additionalDataLoaded = function(path, data) {\n    if (path in window.__additionalData) {\n      notifyLoaded(window.__additionalData[path], data);\n    } else {\n      console.error(\'Unexpected additional data loaded "\' + path + \'"\');\n    }\n  };\n  window.__additionalDataError = function(path, msg) {\n    if (path in window.__additionalData) {\n      notifyError(window.__additionalData[path], msg);\n    } else {\n      console.error(\'Unexpected additional data encountered an error "\' + path + \'": \' + msg);\n    }\n  };\n  \n})();\n</script><script type="text/javascript">\n\n/*\n Copyright 2018 Google Inc. All Rights Reserved.\n Licensed under the Apache License, Version 2.0 (the "License");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an "AS IS" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n*/\n\n(function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,\na):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();\n</script>\n                \n                    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">\n                \n                \n                    \n                        <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">\n                    \n                \n            \n            \n                    \n                        <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">\n                    \n                \n            \n            \n    \n        <style type="text/css">/* @generated \n * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"\n * then run "yolo css"\n */\nbody{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__,.-cx-PRIVATE-Page__root__{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root__{height:100vh}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main__{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main__{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root__{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic__{display:none}.-cx-PRIVATE-NavBar__username__{color:#00376b;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn__{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText__{color:#00376b;font-weight:400}.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup.png/3a62b1a95da3.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo__ a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/43608c988939.png)}}.-cx-PRIVATE-NavBar__logoGroup__{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup__ .-cx-PRIVATE-NavBar__logo__{position:static}.-cx-PRIVATE-NavBar__wrapper__{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions__,.-cx-PRIVATE-SidebarLayout__content__ li{list-style:none}.-cx-PRIVATE-NavBar__dropdown__,.-cx-PRIVATE-NavBar__topBarLeft__,.-cx-PRIVATE-SidebarLayout__content__ .separator,.-cx-PRIVATE-SidebarLayout__content__ .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content__{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content__ ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content__{margin:0 px;border:0;width:100%}.-cx-PRIVATE-SidebarLayout__content__ ul{display:none}}.-cx-PRIVATE-SidebarLayout__root__{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root__{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper__,.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper__{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav__{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav__{float:none;display:block;margin:0!important;background:0 0;border:0;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper__{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent__ .-cx-PRIVATE-SidebarLayout__contentWrapper__{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent__{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent__{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent__>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent__ a{color:#00376b}.-cx-PRIVATE-SidebarLayout__pageContent__ h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header__{color:#8e8e8e;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header__:first-child{display:block}.-cx-PRIVATE-Navigation__header__:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header__ i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/9ae8409fbb3a.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content__.active .-cx-PRIVATE-Navigation__header__ i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink__,.-cx-PRIVATE-Navigation__navLink__:active,.-cx-PRIVATE-Navigation__navLink__:hover,.-cx-PRIVATE-Navigation__navLink__:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink__:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active__ .-cx-PRIVATE-Navigation__navLink__{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root__{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright__{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav__{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright__{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems__{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems__ li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems__ li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems__ a,.-cx-PRIVATE-Footer__navItems__ a:active,.-cx-PRIVATE-Footer__navItems__ a:focus,.-cx-PRIVATE-Footer__navItems__ a:hover,.-cx-PRIVATE-Footer__navItems__ a:visited{color:#00376b;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper__{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer__{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer__{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer__ a,.-cx-PRIVATE-ErrorPage__errorContainer__ a:visited{color:#00376b}.-cx-PRIVATE-Linkshim__followLink__{background-color:#fff;color:#0095f6;border:1px solid #0095f6;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink__{width:10%}}.-cx-PRIVATE-Linkshim__followLink__:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink__:focus{color:#0074cc;border:1px solid #0074cc}@media (min-width:736px){.-cx-PRIVATE-Linkshim__goBack__{width:6%}}.-cx-PRIVATE-Linkshim__goBack__:active{opacity:.5}.-cx-PRIVATE-Linkshim__goBack__:focus{border:1px solid #0074cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer__{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar__{border-radius:50%;height:100%;width:auto}</style>\n    \n\n            \n    <script type="text/javascript" src="/static/scripts/jquery.js/a4e77326039e.js" crossorigin="anonymous"></script>\n    <script type="text/javascript" src="/static/scripts/bluebar.js/203583927eba.js" crossorigin="anonymous"></script>\n</head>\n    <body class=" p-error dialog-404" style="">\n        \n            <div class="root -cx-PRIVATE-Page__root -cx-PRIVATE-Page__root__">\n                \n                    <div class="page -cx-PRIVATE-Page__body -cx-PRIVATE-Page__body__">\n                        \n                            \n                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root -cx-PRIVATE-NavBar__root__">\n    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper -cx-PRIVATE-NavBar__wrapper__">\n        <div class="logo -cx-PRIVATE-NavBar__logo -cx-PRIVATE-NavBar__logo__"><a href="/">Instagram</a></div>\n\n        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft -cx-PRIVATE-NavBar__topBarLeft__">\n            <ul class="top-bar-actions">\n                <li>\n                    <a class="top-bar-home" href="/" label=Home><i></i></a>\n                </li>\n            </ul>\n        </div>\n\n        \n            <div class="top-bar-right account-state" id="top_bar_right">\n                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions -cx-PRIVATE-NavBar__topBarActions__">\n                    \n                    \n                      \n                      <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn -cx-PRIVATE-NavBar__signIn__">\n                          <a href="/accounts/login/" class="loginLink">\n                              <i></i>\n                              <strong class="-cx-PRIVATE-NavBar__signInText -cx-PRIVATE-NavBar__signInText__">Log in</strong>\n                          </a>\n                      </li>\n                      \n                    \n                </ul>\n            </div>\n        \n    </div>\n</header> <!-- .top-bar -->\n                            \n                        \n\n                        \n                        <div class="main -cx-PRIVATE-Page__main -cx-PRIVATE-Page__main__">\n                            \n    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer -cx-PRIVATE-ErrorPage__errorContainer__">\n    \n\n    <h2>Sorry, this page isn&#39;t available.</h2>\n\n    <p>\n        The link you followed may be broken, or the page may have been removed.\n        <a href="/">Go back to Instagram.</a>\n    </p>\n\n\n\n    </div>\n\n                        </div> <!-- .main -->\n                        \n\n                    </div> <!-- .page -->\n\n                    \n                    <footer class="page-footer -cx-PRIVATE-Footer__root -cx-PRIVATE-Footer__root__" role="contentinfo">\n                        <div class="wrapper -cx-PRIVATE-Footer__wrapper -cx-PRIVATE-Footer__wrapper__">\n                            <nav class="-cx-PRIVATE-Footer__nav -cx-PRIVATE-Footer__nav__">\n                                <ul class="-cx-PRIVATE-Footer__navItems -cx-PRIVATE-Footer__navItems__">\n                                    <li><a href="/about/us/">About us</a></li>\n                                    <li><a href="https://help.instagram.com/">Support</a></li>\n                                    <li><a href="https://about.instagram.com/blog/">Press</a></li>\n                                    <li><a href="">API</a></li>\n                                    <li><a href="https://about.instagram.com/about-us/careers">Jobs</a></li>\n                                    <li><a href="/legal/privacy/">Privacy</a></li>\n                                    <li><a href="/legal/terms/">\n                                      \n                                          Terms\n                                      \n                                    </a></li>\n                                    \n                                </ul>\n                            </nav>\n\n                            <p class="copyright -cx-PRIVATE-Footer__copyright -cx-PRIVATE-Footer__copyright__">&copy; 2024 Instagram</p>\n                        </div>\n                    </footer>\n                    \n                \n                <div id="reactModalMountPoint"></div>\n            </div> <!-- .root -->\n        \n        \n\n\n        \n            \n\n            \n        \n\n        <script type="text/javascript">\n(function(){\n  function normalizeError(err) {\n    var errorInfo = err.error || {};\n    var getConfigProp = function(propName, defaultValueIfNotTruthy) {\n      var propValue = window._sharedData && window._sharedData[propName];\n      return propValue ? propValue : defaultValueIfNotTruthy;\n    };\n    var windowUrl = window.location.href;\n    var errUrl = err.url || windowUrl;\n    return {\n      line: err.line || errorInfo.message || 0,\n      column: err.column || 0,\n      name: \'InitError\',\n      message: err.message || errorInfo.message || \'\',\n      script: errorInfo.script || \'\',\n      stack: errorInfo.stackTrace || errorInfo.stack || \'\',\n      timestamp: Date.now(),\n      ref: windowUrl.indexOf(\'direct\') >= 0 ? \'direct\' : windowUrl,\n      deployment_stage: getConfigProp(\'deployment_stage\', \'\'),\n      frontend_env: getConfigProp(\'frontend_env\', \'prod\'),\n      rollout_hash: getConfigProp(\'rollout_hash\', \'\'),\n      is_prerelease: window.__PRERELEASE__ || false,\n      bundle_variant: getConfigProp(\'bundle_variant\', null),\n      request_url: errUrl.indexOf(\'direct\') >= 0 ? \'direct\' : errUrl,\n      response_status_code: errorInfo.statusCode || 0\n    }\n  }\n  window.addEventListener(\'load\', function(){\n    if (window.__bufferedErrors && window.__bufferedErrors.length) {\n      if (window.caches && window.caches.keys && window.caches.delete) {\n        window.caches.keys().then(function(keys) {\n          keys.forEach(function(key) {\n            window.caches.delete(key)\n          })\n        })\n      }\n      window.__bufferedErrors.map(function(error) {\n        return normalizeError(error)\n      }).forEach(function(normalizedError) {\n        var request = new XMLHttpRequest();\n        request.open(\'POST\', \'/client_error/\', true);\n        request.setRequestHeader(\'Content-Type\', \'application/json; charset=utf-8\');\n        request.send(JSON.stringify(normalizedError));\n      })\n    }\n  })\n}());\n</script>\n    </body>\n</html>\n'
+2024-09-05 22:32:06,179 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2024-09-05 22:32:06,179 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [404]>
+2024-09-05 22:32:06,179 - instabot version: 0.117.0 (api) - INFO - Response Text: <!DOCTYPE html>
+<html lang="None" class="no-js not-logged-in ">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+                  Page Not Found &bull; Instagram
+                </title>
+
+        
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#ffffff">
+        
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <link rel="manifest" href="/data/manifest.json">
+
+        
+        
+        
+
+        <script type="text/javascript">
+        (function() {
+  var docElement = document.documentElement;
+  var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+  var className = docElement.className;
+  docElement.className = className.replace(classRE, '$1js$2');
+})();
+</script>
+        <script type="text/javascript">
+(function() {
+  if ('PerformanceObserver' in window && 'PerformancePaintTiming' in window) {
+    window.__bufferedPerformance = [];
+    var ob = new PerformanceObserver(function(e) {
+      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());
+    });
+    ob.observe({entryTypes:['paint']});
+  }
+
+  window.__bufferedErrors = [];
+  window.onerror = function(message, url, line, column, error) {
+    window.__bufferedErrors.push({
+      message: message,
+      url: url,
+      line: line,
+      column: column,
+      error: error
+    });
+    return false;
+  };
+  window.__initialData = {
+    pending: true,
+    waiting: []
+  };
+  function asyncFetchSharedData(extra) {
+    var sharedDataReq = new XMLHttpRequest();
+    sharedDataReq.onreadystatechange = function() {
+          if (sharedDataReq.readyState === 4) {
+            if(sharedDataReq.status === 200){
+              var sharedData = JSON.parse(sharedDataReq.responseText);
+              window.__initialDataLoaded(sharedData, extra);
+            }
+          }
+        }
+    sharedDataReq.open('GET', '/data/shared_data/', true);
+    sharedDataReq.send(null);
+  }
+  function notifyLoaded(item, data) {
+    item.pending = false;
+    item.data = data;
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].resolve(item.data);
+    }
+    item.waiting = [];
+  }
+  function notifyError(item, msg) {
+    item.pending = false;
+    item.error = new Error(msg);
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].reject(item.error);
+    }
+    item.waiting = [];
+  }
+  window.__initialDataLoaded = function(initialData, extraData) {
+    if (extraData) {
+      for (var key in extraData) {
+        initialData[key] = extraData[key];
+      }
+    }
+    notifyLoaded(window.__initialData, initialData);
+  };
+  window.__initialDataError = function(msg) {
+    notifyError(window.__initialData, msg);
+  };
+  window.__additionalData = {};
+  window.__pendingAdditionalData = function(paths) {
+    for (var i = 0;i < paths.length; ++i) {
+      window.__additionalData[paths[i]] = {
+        pending: true,
+        waiting: []
+      };
+    }
+  };
+  window.__additionalDataLoaded = function(path, data) {
+    if (path in window.__additionalData) {
+      notifyLoaded(window.__additionalData[path], data);
+    } else {
+      console.error('Unexpected additional data loaded "' + path + '"');
+    }
+  };
+  window.__additionalDataError = function(path, msg) {
+    if (path in window.__additionalData) {
+      notifyError(window.__additionalData[path], msg);
+    } else {
+      console.error('Unexpected additional data encountered an error "' + path + '": ' + msg);
+    }
+  };
+  
+})();
+</script><script type="text/javascript">
+
+/*
+ Copyright 2018 Google Inc. All Rights Reserved.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+(function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,
+a):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();
+</script>
+                
+                    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">
+                
+                
+                    
+                        <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+                    
+                
+            
+            
+                    
+                        <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
+                    
+                
+            
+            
+    
+        <style type="text/css">/* @generated 
+ * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"
+ * then run "yolo css"
+ */
+body{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__,.-cx-PRIVATE-Page__root__{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root__{height:100vh}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main__{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main__{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root__{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic__{display:none}.-cx-PRIVATE-NavBar__username__{color:#00376b;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn__{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText__{color:#00376b;font-weight:400}.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup.png/3a62b1a95da3.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo__ a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/43608c988939.png)}}.-cx-PRIVATE-NavBar__logoGroup__{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup__ .-cx-PRIVATE-NavBar__logo__{position:static}.-cx-PRIVATE-NavBar__wrapper__{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions__,.-cx-PRIVATE-SidebarLayout__content__ li{list-style:none}.-cx-PRIVATE-NavBar__dropdown__,.-cx-PRIVATE-NavBar__topBarLeft__,.-cx-PRIVATE-SidebarLayout__content__ .separator,.-cx-PRIVATE-SidebarLayout__content__ .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content__{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content__ ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content__{margin:0 px;border:0;width:100%}.-cx-PRIVATE-SidebarLayout__content__ ul{display:none}}.-cx-PRIVATE-SidebarLayout__root__{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root__{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper__,.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper__{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav__{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav__{float:none;display:block;margin:0!important;background:0 0;border:0;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper__{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent__ .-cx-PRIVATE-SidebarLayout__contentWrapper__{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent__{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent__{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent__>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent__ a{color:#00376b}.-cx-PRIVATE-SidebarLayout__pageContent__ h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header__{color:#8e8e8e;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header__:first-child{display:block}.-cx-PRIVATE-Navigation__header__:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header__ i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/9ae8409fbb3a.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content__.active .-cx-PRIVATE-Navigation__header__ i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink__,.-cx-PRIVATE-Navigation__navLink__:active,.-cx-PRIVATE-Navigation__navLink__:hover,.-cx-PRIVATE-Navigation__navLink__:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink__:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active__ .-cx-PRIVATE-Navigation__navLink__{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root__{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright__{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav__{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright__{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems__{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems__ li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems__ li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems__ a,.-cx-PRIVATE-Footer__navItems__ a:active,.-cx-PRIVATE-Footer__navItems__ a:focus,.-cx-PRIVATE-Footer__navItems__ a:hover,.-cx-PRIVATE-Footer__navItems__ a:visited{color:#00376b;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper__{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer__{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer__{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer__ a,.-cx-PRIVATE-ErrorPage__errorContainer__ a:visited{color:#00376b}.-cx-PRIVATE-Linkshim__followLink__{background-color:#fff;color:#0095f6;border:1px solid #0095f6;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink__{width:10%}}.-cx-PRIVATE-Linkshim__followLink__:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink__:focus{color:#0074cc;border:1px solid #0074cc}@media (min-width:736px){.-cx-PRIVATE-Linkshim__goBack__{width:6%}}.-cx-PRIVATE-Linkshim__goBack__:active{opacity:.5}.-cx-PRIVATE-Linkshim__goBack__:focus{border:1px solid #0074cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer__{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar__{border-radius:50%;height:100%;width:auto}</style>
+    
+
+            
+    <script type="text/javascript" src="/static/scripts/jquery.js/a4e77326039e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/scripts/bluebar.js/203583927eba.js" crossorigin="anonymous"></script>
+</head>
+    <body class=" p-error dialog-404" style="">
+        
+            <div class="root -cx-PRIVATE-Page__root -cx-PRIVATE-Page__root__">
+                
+                    <div class="page -cx-PRIVATE-Page__body -cx-PRIVATE-Page__body__">
+                        
+                            
+                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root -cx-PRIVATE-NavBar__root__">
+    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper -cx-PRIVATE-NavBar__wrapper__">
+        <div class="logo -cx-PRIVATE-NavBar__logo -cx-PRIVATE-NavBar__logo__"><a href="/">Instagram</a></div>
+
+        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft -cx-PRIVATE-NavBar__topBarLeft__">
+            <ul class="top-bar-actions">
+                <li>
+                    <a class="top-bar-home" href="/" label=Home><i></i></a>
+                </li>
+            </ul>
+        </div>
+
+        
+            <div class="top-bar-right account-state" id="top_bar_right">
+                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions -cx-PRIVATE-NavBar__topBarActions__">
+                    
+                    
+                      
+                      <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn -cx-PRIVATE-NavBar__signIn__">
+                          <a href="/accounts/login/" class="loginLink">
+                              <i></i>
+                              <strong class="-cx-PRIVATE-NavBar__signInText -cx-PRIVATE-NavBar__signInText__">Log in</strong>
+                          </a>
+                      </li>
+                      
+                    
+                </ul>
+            </div>
+        
+    </div>
+</header> <!-- .top-bar -->
+                            
+                        
+
+                        
+                        <div class="main -cx-PRIVATE-Page__main -cx-PRIVATE-Page__main__">
+                            
+    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer -cx-PRIVATE-ErrorPage__errorContainer__">
+    
+
+    <h2>Sorry, this page isn&#39;t available.</h2>
+
+    <p>
+        The link you followed may be broken, or the page may have been removed.
+        <a href="/">Go back to Instagram.</a>
+    </p>
+
+
+
+    </div>
+
+                        </div> <!-- .main -->
+                        
+
+                    </div> <!-- .page -->
+
+                    
+                    <footer class="page-footer -cx-PRIVATE-Footer__root -cx-PRIVATE-Footer__root__" role="contentinfo">
+                        <div class="wrapper -cx-PRIVATE-Footer__wrapper -cx-PRIVATE-Footer__wrapper__">
+                            <nav class="-cx-PRIVATE-Footer__nav -cx-PRIVATE-Footer__nav__">
+                                <ul class="-cx-PRIVATE-Footer__navItems -cx-PRIVATE-Footer__navItems__">
+                                    <li><a href="/about/us/">About us</a></li>
+                                    <li><a href="https://help.instagram.com/">Support</a></li>
+                                    <li><a href="https://about.instagram.com/blog/">Press</a></li>
+                                    <li><a href="">API</a></li>
+                                    <li><a href="https://about.instagram.com/about-us/careers">Jobs</a></li>
+                                    <li><a href="/legal/privacy/">Privacy</a></li>
+                                    <li><a href="/legal/terms/">
+                                      
+                                          Terms
+                                      
+                                    </a></li>
+                                    
+                                </ul>
+                            </nav>
+
+                            <p class="copyright -cx-PRIVATE-Footer__copyright -cx-PRIVATE-Footer__copyright__">&copy; 2024 Instagram</p>
+                        </div>
+                    </footer>
+                    
+                
+                <div id="reactModalMountPoint"></div>
+            </div> <!-- .root -->
+        
+        
+
+
+        
+            
+
+            
+        
+
+        <script type="text/javascript">
+(function(){
+  function normalizeError(err) {
+    var errorInfo = err.error || {};
+    var getConfigProp = function(propName, defaultValueIfNotTruthy) {
+      var propValue = window._sharedData && window._sharedData[propName];
+      return propValue ? propValue : defaultValueIfNotTruthy;
+    };
+    var windowUrl = window.location.href;
+    var errUrl = err.url || windowUrl;
+    return {
+      line: err.line || errorInfo.message || 0,
+      column: err.column || 0,
+      name: 'InitError',
+      message: err.message || errorInfo.message || '',
+      script: errorInfo.script || '',
+      stack: errorInfo.stackTrace || errorInfo.stack || '',
+      timestamp: Date.now(),
+      ref: windowUrl.indexOf('direct') >= 0 ? 'direct' : windowUrl,
+      deployment_stage: getConfigProp('deployment_stage', ''),
+      frontend_env: getConfigProp('frontend_env', 'prod'),
+      rollout_hash: getConfigProp('rollout_hash', ''),
+      is_prerelease: window.__PRERELEASE__ || false,
+      bundle_variant: getConfigProp('bundle_variant', null),
+      request_url: errUrl.indexOf('direct') >= 0 ? 'direct' : errUrl,
+      response_status_code: errorInfo.statusCode || 0
+    }
+  }
+  window.addEventListener('load', function(){
+    if (window.__bufferedErrors && window.__bufferedErrors.length) {
+      if (window.caches && window.caches.keys && window.caches.delete) {
+        window.caches.keys().then(function(keys) {
+          keys.forEach(function(key) {
+            window.caches.delete(key)
+          })
+        })
+      }
+      window.__bufferedErrors.map(function(error) {
+        return normalizeError(error)
+      }).forEach(function(normalizedError) {
+        var request = new XMLHttpRequest();
+        request.open('POST', '/client_error/', true);
+        request.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+        request.send(JSON.stringify(normalizedError));
+      })
+    }
+  })
+}());
+</script>
+    </body>
+</html>
+
+2024-09-05 22:32:06,180 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2024-09-05 22:32:06,442 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2024-09-05 22:32:07,124 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2024-09-05 22:32:09,524 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2024-09-05 22:32:09,694 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2024-09-05 22:32:11,260 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2024-09-05 22:32:11,437 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2024-09-05 22:32:12,277 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2024-09-05 22:32:12,488 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2024-09-05 22:32:12,641 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2024-09-05 22:32:12,839 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2024-09-05 22:32:12,992 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [404]>
+2024-09-05 22:32:12,992 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'<!DOCTYPE html>\n<html lang="None" class="no-js not-logged-in ">\n    <head>\n        <meta charset="utf-8">\n        <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\n        <title>\n                  Page Not Found &bull; Instagram\n                </title>\n\n        \n        <meta name="robots" content="noimageindex, noarchive">\n        <meta name="apple-mobile-web-app-status-bar-style" content="default">\n        <meta name="mobile-web-app-capable" content="yes">\n        <meta name="theme-color" content="#ffffff">\n        \n        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">\n        <link rel="manifest" href="/data/manifest.json">\n\n        \n        \n        \n\n        <script type="text/javascript">\n        (function() {\n  var docElement = document.documentElement;\n  var classRE = new RegExp(\'(^|\\\\s)no-js(\\\\s|$)\');\n  var className = docElement.className;\n  docElement.className = className.replace(classRE, \'$1js$2\');\n})();\n</script>\n        <script type="text/javascript">\n(function() {\n  if (\'PerformanceObserver\' in window && \'PerformancePaintTiming\' in window) {\n    window.__bufferedPerformance = [];\n    var ob = new PerformanceObserver(function(e) {\n      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());\n    });\n    ob.observe({entryTypes:[\'paint\']});\n  }\n\n  window.__bufferedErrors = [];\n  window.onerror = function(message, url, line, column, error) {\n    window.__bufferedErrors.push({\n      message: message,\n      url: url,\n      line: line,\n      column: column,\n      error: error\n    });\n    return false;\n  };\n  window.__initialData = {\n    pending: true,\n    waiting: []\n  };\n  function asyncFetchSharedData(extra) {\n    var sharedDataReq = new XMLHttpRequest();\n    sharedDataReq.onreadystatechange = function() {\n          if (sharedDataReq.readyState === 4) {\n            if(sharedDataReq.status === 200){\n              var sharedData = JSON.parse(sharedDataReq.responseText);\n              window.__initialDataLoaded(sharedData, extra);\n            }\n          }\n        }\n    sharedDataReq.open(\'GET\', \'/data/shared_data/\', true);\n    sharedDataReq.send(null);\n  }\n  function notifyLoaded(item, data) {\n    item.pending = false;\n    item.data = data;\n    for (var i = 0;i < item.waiting.length; ++i) {\n      item.waiting[i].resolve(item.data);\n    }\n    item.waiting = [];\n  }\n  function notifyError(item, msg) {\n    item.pending = false;\n    item.error = new Error(msg);\n    for (var i = 0;i < item.waiting.length; ++i) {\n      item.waiting[i].reject(item.error);\n    }\n    item.waiting = [];\n  }\n  window.__initialDataLoaded = function(initialData, extraData) {\n    if (extraData) {\n      for (var key in extraData) {\n        initialData[key] = extraData[key];\n      }\n    }\n    notifyLoaded(window.__initialData, initialData);\n  };\n  window.__initialDataError = function(msg) {\n    notifyError(window.__initialData, msg);\n  };\n  window.__additionalData = {};\n  window.__pendingAdditionalData = function(paths) {\n    for (var i = 0;i < paths.length; ++i) {\n      window.__additionalData[paths[i]] = {\n        pending: true,\n        waiting: []\n      };\n    }\n  };\n  window.__additionalDataLoaded = function(path, data) {\n    if (path in window.__additionalData) {\n      notifyLoaded(window.__additionalData[path], data);\n    } else {\n      console.error(\'Unexpected additional data loaded "\' + path + \'"\');\n    }\n  };\n  window.__additionalDataError = function(path, msg) {\n    if (path in window.__additionalData) {\n      notifyError(window.__additionalData[path], msg);\n    } else {\n      console.error(\'Unexpected additional data encountered an error "\' + path + \'": \' + msg);\n    }\n  };\n  \n})();\n</script><script type="text/javascript">\n\n/*\n Copyright 2018 Google Inc. All Rights Reserved.\n Licensed under the Apache License, Version 2.0 (the "License");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an "AS IS" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n*/\n\n(function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,\na):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();\n</script>\n                \n                    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">\n                    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">\n                \n                \n                    \n                        <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">\n                    \n                \n            \n            \n                    \n                        <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">\n                    \n                \n            \n            \n    \n        <style type="text/css">/* @generated \n * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"\n * then run "yolo css"\n */\nbody{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__,.-cx-PRIVATE-Page__root__{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root__{height:100vh}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main__{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main__{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root__{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic__{display:none}.-cx-PRIVATE-NavBar__username__{color:#00376b;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn__{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText__{color:#00376b;font-weight:400}.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup.png/3a62b1a95da3.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo__ a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/43608c988939.png)}}.-cx-PRIVATE-NavBar__logoGroup__{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup__ .-cx-PRIVATE-NavBar__logo__{position:static}.-cx-PRIVATE-NavBar__wrapper__{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions__,.-cx-PRIVATE-SidebarLayout__content__ li{list-style:none}.-cx-PRIVATE-NavBar__dropdown__,.-cx-PRIVATE-NavBar__topBarLeft__,.-cx-PRIVATE-SidebarLayout__content__ .separator,.-cx-PRIVATE-SidebarLayout__content__ .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content__{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content__ ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content__{margin:0 px;border:0;width:100%}.-cx-PRIVATE-SidebarLayout__content__ ul{display:none}}.-cx-PRIVATE-SidebarLayout__root__{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root__{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper__,.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper__{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav__{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav__{float:none;display:block;margin:0!important;background:0 0;border:0;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper__{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent__ .-cx-PRIVATE-SidebarLayout__contentWrapper__{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent__{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent__{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent__>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent__ a{color:#00376b}.-cx-PRIVATE-SidebarLayout__pageContent__ h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header__{color:#8e8e8e;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header__:first-child{display:block}.-cx-PRIVATE-Navigation__header__:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header__ i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/9ae8409fbb3a.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content__.active .-cx-PRIVATE-Navigation__header__ i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink__,.-cx-PRIVATE-Navigation__navLink__:active,.-cx-PRIVATE-Navigation__navLink__:hover,.-cx-PRIVATE-Navigation__navLink__:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink__:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active__ .-cx-PRIVATE-Navigation__navLink__{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root__{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright__{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav__{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright__{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems__{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems__ li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems__ li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems__ a,.-cx-PRIVATE-Footer__navItems__ a:active,.-cx-PRIVATE-Footer__navItems__ a:focus,.-cx-PRIVATE-Footer__navItems__ a:hover,.-cx-PRIVATE-Footer__navItems__ a:visited{color:#00376b;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper__{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer__{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer__{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer__ a,.-cx-PRIVATE-ErrorPage__errorContainer__ a:visited{color:#00376b}.-cx-PRIVATE-Linkshim__followLink__{background-color:#fff;color:#0095f6;border:1px solid #0095f6;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink__{width:10%}}.-cx-PRIVATE-Linkshim__followLink__:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink__:focus{color:#0074cc;border:1px solid #0074cc}@media (min-width:736px){.-cx-PRIVATE-Linkshim__goBack__{width:6%}}.-cx-PRIVATE-Linkshim__goBack__:active{opacity:.5}.-cx-PRIVATE-Linkshim__goBack__:focus{border:1px solid #0074cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer__{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar__{border-radius:50%;height:100%;width:auto}</style>\n    \n\n            \n    <script type="text/javascript" src="/static/scripts/jquery.js/a4e77326039e.js" crossorigin="anonymous"></script>\n    <script type="text/javascript" src="/static/scripts/bluebar.js/203583927eba.js" crossorigin="anonymous"></script>\n</head>\n    <body class=" p-error dialog-404" style="">\n        \n            <div class="root -cx-PRIVATE-Page__root -cx-PRIVATE-Page__root__">\n                \n                    <div class="page -cx-PRIVATE-Page__body -cx-PRIVATE-Page__body__">\n                        \n                            \n                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root -cx-PRIVATE-NavBar__root__">\n    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper -cx-PRIVATE-NavBar__wrapper__">\n        <div class="logo -cx-PRIVATE-NavBar__logo -cx-PRIVATE-NavBar__logo__"><a href="/">Instagram</a></div>\n\n        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft -cx-PRIVATE-NavBar__topBarLeft__">\n            <ul class="top-bar-actions">\n                <li>\n                    <a class="top-bar-home" href="/" label=Home><i></i></a>\n                </li>\n            </ul>\n        </div>\n\n        \n            <div class="top-bar-right account-state" id="top_bar_right">\n                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions -cx-PRIVATE-NavBar__topBarActions__">\n                    \n                    \n                      \n                      <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn -cx-PRIVATE-NavBar__signIn__">\n                          <a href="/accounts/login/" class="loginLink">\n                              <i></i>\n                              <strong class="-cx-PRIVATE-NavBar__signInText -cx-PRIVATE-NavBar__signInText__">Log in</strong>\n                          </a>\n                      </li>\n                      \n                    \n                </ul>\n            </div>\n        \n    </div>\n</header> <!-- .top-bar -->\n                            \n                        \n\n                        \n                        <div class="main -cx-PRIVATE-Page__main -cx-PRIVATE-Page__main__">\n                            \n    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer -cx-PRIVATE-ErrorPage__errorContainer__">\n    \n\n    <h2>Sorry, this page isn&#39;t available.</h2>\n\n    <p>\n        The link you followed may be broken, or the page may have been removed.\n        <a href="/">Go back to Instagram.</a>\n    </p>\n\n\n\n    </div>\n\n                        </div> <!-- .main -->\n                        \n\n                    </div> <!-- .page -->\n\n                    \n                    <footer class="page-footer -cx-PRIVATE-Footer__root -cx-PRIVATE-Footer__root__" role="contentinfo">\n                        <div class="wrapper -cx-PRIVATE-Footer__wrapper -cx-PRIVATE-Footer__wrapper__">\n                            <nav class="-cx-PRIVATE-Footer__nav -cx-PRIVATE-Footer__nav__">\n                                <ul class="-cx-PRIVATE-Footer__navItems -cx-PRIVATE-Footer__navItems__">\n                                    <li><a href="/about/us/">About us</a></li>\n                                    <li><a href="https://help.instagram.com/">Support</a></li>\n                                    <li><a href="https://about.instagram.com/blog/">Press</a></li>\n                                    <li><a href="">API</a></li>\n                                    <li><a href="https://about.instagram.com/about-us/careers">Jobs</a></li>\n                                    <li><a href="/legal/privacy/">Privacy</a></li>\n                                    <li><a href="/legal/terms/">\n                                      \n                                          Terms\n                                      \n                                    </a></li>\n                                    \n                                </ul>\n                            </nav>\n\n                            <p class="copyright -cx-PRIVATE-Footer__copyright -cx-PRIVATE-Footer__copyright__">&copy; 2024 Instagram</p>\n                        </div>\n                    </footer>\n                    \n                \n                <div id="reactModalMountPoint"></div>\n            </div> <!-- .root -->\n        \n        \n\n\n        \n            \n\n            \n        \n\n        <script type="text/javascript">\n(function(){\n  function normalizeError(err) {\n    var errorInfo = err.error || {};\n    var getConfigProp = function(propName, defaultValueIfNotTruthy) {\n      var propValue = window._sharedData && window._sharedData[propName];\n      return propValue ? propValue : defaultValueIfNotTruthy;\n    };\n    var windowUrl = window.location.href;\n    var errUrl = err.url || windowUrl;\n    return {\n      line: err.line || errorInfo.message || 0,\n      column: err.column || 0,\n      name: \'InitError\',\n      message: err.message || errorInfo.message || \'\',\n      script: errorInfo.script || \'\',\n      stack: errorInfo.stackTrace || errorInfo.stack || \'\',\n      timestamp: Date.now(),\n      ref: windowUrl.indexOf(\'direct\') >= 0 ? \'direct\' : windowUrl,\n      deployment_stage: getConfigProp(\'deployment_stage\', \'\'),\n      frontend_env: getConfigProp(\'frontend_env\', \'prod\'),\n      rollout_hash: getConfigProp(\'rollout_hash\', \'\'),\n      is_prerelease: window.__PRERELEASE__ || false,\n      bundle_variant: getConfigProp(\'bundle_variant\', null),\n      request_url: errUrl.indexOf(\'direct\') >= 0 ? \'direct\' : errUrl,\n      response_status_code: errorInfo.statusCode || 0\n    }\n  }\n  window.addEventListener(\'load\', function(){\n    if (window.__bufferedErrors && window.__bufferedErrors.length) {\n      if (window.caches && window.caches.keys && window.caches.delete) {\n        window.caches.keys().then(function(keys) {\n          keys.forEach(function(key) {\n            window.caches.delete(key)\n          })\n        })\n      }\n      window.__bufferedErrors.map(function(error) {\n        return normalizeError(error)\n      }).forEach(function(normalizedError) {\n        var request = new XMLHttpRequest();\n        request.open(\'POST\', \'/client_error/\', true);\n        request.setRequestHeader(\'Content-Type\', \'application/json; charset=utf-8\');\n        request.send(JSON.stringify(normalizedError));\n      })\n    }\n  })\n}());\n</script>\n    </body>\n</html>\n'
+2024-09-05 22:32:12,992 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2024-09-05 22:32:12,993 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [404]>
+2024-09-05 22:32:12,993 - instabot version: 0.117.0 (api) - INFO - Response Text: <!DOCTYPE html>
+<html lang="None" class="no-js not-logged-in ">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+                  Page Not Found &bull; Instagram
+                </title>
+
+        
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#ffffff">
+        
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <link rel="manifest" href="/data/manifest.json">
+
+        
+        
+        
+
+        <script type="text/javascript">
+        (function() {
+  var docElement = document.documentElement;
+  var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+  var className = docElement.className;
+  docElement.className = className.replace(classRE, '$1js$2');
+})();
+</script>
+        <script type="text/javascript">
+(function() {
+  if ('PerformanceObserver' in window && 'PerformancePaintTiming' in window) {
+    window.__bufferedPerformance = [];
+    var ob = new PerformanceObserver(function(e) {
+      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());
+    });
+    ob.observe({entryTypes:['paint']});
+  }
+
+  window.__bufferedErrors = [];
+  window.onerror = function(message, url, line, column, error) {
+    window.__bufferedErrors.push({
+      message: message,
+      url: url,
+      line: line,
+      column: column,
+      error: error
+    });
+    return false;
+  };
+  window.__initialData = {
+    pending: true,
+    waiting: []
+  };
+  function asyncFetchSharedData(extra) {
+    var sharedDataReq = new XMLHttpRequest();
+    sharedDataReq.onreadystatechange = function() {
+          if (sharedDataReq.readyState === 4) {
+            if(sharedDataReq.status === 200){
+              var sharedData = JSON.parse(sharedDataReq.responseText);
+              window.__initialDataLoaded(sharedData, extra);
+            }
+          }
+        }
+    sharedDataReq.open('GET', '/data/shared_data/', true);
+    sharedDataReq.send(null);
+  }
+  function notifyLoaded(item, data) {
+    item.pending = false;
+    item.data = data;
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].resolve(item.data);
+    }
+    item.waiting = [];
+  }
+  function notifyError(item, msg) {
+    item.pending = false;
+    item.error = new Error(msg);
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].reject(item.error);
+    }
+    item.waiting = [];
+  }
+  window.__initialDataLoaded = function(initialData, extraData) {
+    if (extraData) {
+      for (var key in extraData) {
+        initialData[key] = extraData[key];
+      }
+    }
+    notifyLoaded(window.__initialData, initialData);
+  };
+  window.__initialDataError = function(msg) {
+    notifyError(window.__initialData, msg);
+  };
+  window.__additionalData = {};
+  window.__pendingAdditionalData = function(paths) {
+    for (var i = 0;i < paths.length; ++i) {
+      window.__additionalData[paths[i]] = {
+        pending: true,
+        waiting: []
+      };
+    }
+  };
+  window.__additionalDataLoaded = function(path, data) {
+    if (path in window.__additionalData) {
+      notifyLoaded(window.__additionalData[path], data);
+    } else {
+      console.error('Unexpected additional data loaded "' + path + '"');
+    }
+  };
+  window.__additionalDataError = function(path, msg) {
+    if (path in window.__additionalData) {
+      notifyError(window.__additionalData[path], msg);
+    } else {
+      console.error('Unexpected additional data encountered an error "' + path + '": ' + msg);
+    }
+  };
+  
+})();
+</script><script type="text/javascript">
+
+/*
+ Copyright 2018 Google Inc. All Rights Reserved.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+(function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,
+a):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();
+</script>
+                
+                    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">
+                    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">
+                
+                
+                    
+                        <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+                    
+                
+            
+            
+                    
+                        <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
+                    
+                
+            
+            
+    
+        <style type="text/css">/* @generated 
+ * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"
+ * then run "yolo css"
+ */
+body{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__,.-cx-PRIVATE-Page__root__{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root__{height:100vh}.-cx-PRIVATE-Page__body__,.-cx-PRIVATE-Page__main__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main__{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main__{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root__{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic__{display:none}.-cx-PRIVATE-NavBar__username__{color:#00376b;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn__{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText__{color:#00376b;font-weight:400}.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup.png/3a62b1a95da3.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo__ a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo__{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/43608c988939.png)}}.-cx-PRIVATE-NavBar__logoGroup__{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup__ .-cx-PRIVATE-NavBar__logo__{position:static}.-cx-PRIVATE-NavBar__wrapper__{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions__,.-cx-PRIVATE-SidebarLayout__content__ li{list-style:none}.-cx-PRIVATE-NavBar__dropdown__,.-cx-PRIVATE-NavBar__topBarLeft__,.-cx-PRIVATE-SidebarLayout__content__ .separator,.-cx-PRIVATE-SidebarLayout__content__ .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content__{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content__ ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content__{margin:0 px;border:0;width:100%}.-cx-PRIVATE-SidebarLayout__content__ ul{display:none}}.-cx-PRIVATE-SidebarLayout__root__{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root__{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper__,.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper__{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper__{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav__{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav__{float:none;display:block;margin:0!important;background:0 0;border:0;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper__{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper__{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent__ .-cx-PRIVATE-SidebarLayout__contentWrapper__{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent__{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent__{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent__>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent__ a{color:#00376b}.-cx-PRIVATE-SidebarLayout__pageContent__ h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent__ li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent__ pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header__{color:#8e8e8e;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header__:first-child{display:block}.-cx-PRIVATE-Navigation__header__:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header__ i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/9ae8409fbb3a.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content__.active .-cx-PRIVATE-Navigation__header__ i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink__,.-cx-PRIVATE-Navigation__navLink__:active,.-cx-PRIVATE-Navigation__navLink__:hover,.-cx-PRIVATE-Navigation__navLink__:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink__:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active__ .-cx-PRIVATE-Navigation__navLink__{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root__{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright__{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav__{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright__{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems__{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems__ li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems__ li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems__ a,.-cx-PRIVATE-Footer__navItems__ a:active,.-cx-PRIVATE-Footer__navItems__ a:focus,.-cx-PRIVATE-Footer__navItems__ a:hover,.-cx-PRIVATE-Footer__navItems__ a:visited{color:#00376b;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper__{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer__{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer__{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer__ a,.-cx-PRIVATE-ErrorPage__errorContainer__ a:visited{color:#00376b}.-cx-PRIVATE-Linkshim__followLink__{background-color:#fff;color:#0095f6;border:1px solid #0095f6;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink__{width:10%}}.-cx-PRIVATE-Linkshim__followLink__:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink__:focus{color:#0074cc;border:1px solid #0074cc}@media (min-width:736px){.-cx-PRIVATE-Linkshim__goBack__{width:6%}}.-cx-PRIVATE-Linkshim__goBack__:active{opacity:.5}.-cx-PRIVATE-Linkshim__goBack__:focus{border:1px solid #0074cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer__{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar__{border-radius:50%;height:100%;width:auto}</style>
+    
+
+            
+    <script type="text/javascript" src="/static/scripts/jquery.js/a4e77326039e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/scripts/bluebar.js/203583927eba.js" crossorigin="anonymous"></script>
+</head>
+    <body class=" p-error dialog-404" style="">
+        
+            <div class="root -cx-PRIVATE-Page__root -cx-PRIVATE-Page__root__">
+                
+                    <div class="page -cx-PRIVATE-Page__body -cx-PRIVATE-Page__body__">
+                        
+                            
+                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root -cx-PRIVATE-NavBar__root__">
+    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper -cx-PRIVATE-NavBar__wrapper__">
+        <div class="logo -cx-PRIVATE-NavBar__logo -cx-PRIVATE-NavBar__logo__"><a href="/">Instagram</a></div>
+
+        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft -cx-PRIVATE-NavBar__topBarLeft__">
+            <ul class="top-bar-actions">
+                <li>
+                    <a class="top-bar-home" href="/" label=Home><i></i></a>
+                </li>
+            </ul>
+        </div>
+
+        
+            <div class="top-bar-right account-state" id="top_bar_right">
+                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions -cx-PRIVATE-NavBar__topBarActions__">
+                    
+                    
+                      
+                      <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn -cx-PRIVATE-NavBar__signIn__">
+                          <a href="/accounts/login/" class="loginLink">
+                              <i></i>
+                              <strong class="-cx-PRIVATE-NavBar__signInText -cx-PRIVATE-NavBar__signInText__">Log in</strong>
+                          </a>
+                      </li>
+                      
+                    
+                </ul>
+            </div>
+        
+    </div>
+</header> <!-- .top-bar -->
+                            
+                        
+
+                        
+                        <div class="main -cx-PRIVATE-Page__main -cx-PRIVATE-Page__main__">
+                            
+    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer -cx-PRIVATE-ErrorPage__errorContainer__">
+    
+
+    <h2>Sorry, this page isn&#39;t available.</h2>
+
+    <p>
+        The link you followed may be broken, or the page may have been removed.
+        <a href="/">Go back to Instagram.</a>
+    </p>
+
+
+
+    </div>
+
+                        </div> <!-- .main -->
+                        
+
+                    </div> <!-- .page -->
+
+                    
+                    <footer class="page-footer -cx-PRIVATE-Footer__root -cx-PRIVATE-Footer__root__" role="contentinfo">
+                        <div class="wrapper -cx-PRIVATE-Footer__wrapper -cx-PRIVATE-Footer__wrapper__">
+                            <nav class="-cx-PRIVATE-Footer__nav -cx-PRIVATE-Footer__nav__">
+                                <ul class="-cx-PRIVATE-Footer__navItems -cx-PRIVATE-Footer__navItems__">
+                                    <li><a href="/about/us/">About us</a></li>
+                                    <li><a href="https://help.instagram.com/">Support</a></li>
+                                    <li><a href="https://about.instagram.com/blog/">Press</a></li>
+                                    <li><a href="">API</a></li>
+                                    <li><a href="https://about.instagram.com/about-us/careers">Jobs</a></li>
+                                    <li><a href="/legal/privacy/">Privacy</a></li>
+                                    <li><a href="/legal/terms/">
+                                      
+                                          Terms
+                                      
+                                    </a></li>
+                                    
+                                </ul>
+                            </nav>
+
+                            <p class="copyright -cx-PRIVATE-Footer__copyright -cx-PRIVATE-Footer__copyright__">&copy; 2024 Instagram</p>
+                        </div>
+                    </footer>
+                    
+                
+                <div id="reactModalMountPoint"></div>
+            </div> <!-- .root -->
+        
+        
+
+
+        
+            
+
+            
+        
+
+        <script type="text/javascript">
+(function(){
+  function normalizeError(err) {
+    var errorInfo = err.error || {};
+    var getConfigProp = function(propName, defaultValueIfNotTruthy) {
+      var propValue = window._sharedData && window._sharedData[propName];
+      return propValue ? propValue : defaultValueIfNotTruthy;
+    };
+    var windowUrl = window.location.href;
+    var errUrl = err.url || windowUrl;
+    return {
+      line: err.line || errorInfo.message || 0,
+      column: err.column || 0,
+      name: 'InitError',
+      message: err.message || errorInfo.message || '',
+      script: errorInfo.script || '',
+      stack: errorInfo.stackTrace || errorInfo.stack || '',
+      timestamp: Date.now(),
+      ref: windowUrl.indexOf('direct') >= 0 ? 'direct' : windowUrl,
+      deployment_stage: getConfigProp('deployment_stage', ''),
+      frontend_env: getConfigProp('frontend_env', 'prod'),
+      rollout_hash: getConfigProp('rollout_hash', ''),
+      is_prerelease: window.__PRERELEASE__ || false,
+      bundle_variant: getConfigProp('bundle_variant', null),
+      request_url: errUrl.indexOf('direct') >= 0 ? 'direct' : errUrl,
+      response_status_code: errorInfo.statusCode || 0
+    }
+  }
+  window.addEventListener('load', function(){
+    if (window.__bufferedErrors && window.__bufferedErrors.length) {
+      if (window.caches && window.caches.keys && window.caches.delete) {
+        window.caches.keys().then(function(keys) {
+          keys.forEach(function(key) {
+            window.caches.delete(key)
+          })
+        })
+      }
+      window.__bufferedErrors.map(function(error) {
+        return normalizeError(error)
+      }).forEach(function(normalizedError) {
+        var request = new XMLHttpRequest();
+        request.open('POST', '/client_error/', true);
+        request.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+        request.send(JSON.stringify(normalizedError));
+      })
+    }
+  })
+}());
+</script>
+    </body>
+</html>
+
+2024-09-05 22:32:12,995 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2024-09-05 22:32:13,298 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2024-09-05 22:32:13,475 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2024-09-05 22:32:13,957 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/59776154508/info/ returned response: <Response [200]>
+2024-09-05 22:32:14,346 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [403]>
+2024-09-05 22:32:14,346 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve been logged out","error_body":"Please log back in","status":"fail"}'
+2024-09-05 22:32:14,346 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2024-09-05 22:32:15,543 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2024-09-05 22:32:15,838 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2024-09-05 22:32:16,147 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=1c2c2aa9-d23f-4dce-b967-332d8fd6be60&include_fixed_destinations=true returned response: <Response [200]>
+2024-09-05 22:32:17,131 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2024-09-05 22:32:17,491 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2024-09-05 22:32:17,498 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/frankelliott/PycharmProjects/pythonProject/dank.insta-tool/config/engaged_ape.checkpoint
+2024-09-05 22:32:17,746 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/engaged_ape/usernameinfo/ returned response: <Response [200]>
+2024-09-05 22:32:18,974 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/59776154508/info/ returned response: <Response [200]>
+2024-09-05 22:32:19,588 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2 returned response: <Response [200]>
+2024-09-05 22:32:20,011 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBNzFfNXhLbU0tSm91ZkxKWE5laXQ5c3hZd2tSN19PWUwwNE9LZDdyVTNGWFZ4bG5KTG00V2k1a1hxVkVaV1pFekVtelp0MDhmRWIzSm5MQ1J3MEltRw== returned response: <Response [200]>
+2024-09-05 22:32:20,347 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCZ3F5b2p6QnJ5Y3JtZmxlXzVaNEw2WUd1S1kzV19XZlNMSkR3cEROdzNWMm1GTmlyRHpXLXJfQVBOdldzOTZrbjlnMU9uNjdrTEFPX19sTS1RMHZ4OA== returned response: <Response [200]>
+2024-09-05 22:32:20,731 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFERlVlTWlLaGcxWjZLTUJmQkxQYzlYcFNWakVhekZIeWh2RXZhUGJCMkVWSEFTY3IyYmpSVGZLbDMtZVRWb3EyTXcyWVNIdTlueDNyX0lvZmZ4QWZPeg== returned response: <Response [200]>
+2024-09-05 22:32:21,070 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBNEIzN3Z6elpicTRxUHBCcGxsRkktaG1ndllXOTg4MEZ1eTFTRW41WTg1YzZwV0ZTNFhIZ0l6VXZLYk9KYVg4ZmRVdUpNLXBRT1RoRkg2VnREdFgwZA== returned response: <Response [200]>
+2024-09-05 22:32:21,406 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCYWU3bUNobDlwVHZBY3loMlBPY2NfaHlzVUFldEtKRjZkODNzbjVNRzl0ZzdQT2YzYzl0UllsSnk4NldhcGJJZ3B3R1RlcHlxekgyM3ZULXVnSnBNUA== returned response: <Response [200]>
+2024-09-05 22:32:21,703 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBeS00V2ZMMW05MHdoM0Y3LUtIdFV0cnpjZFgzZDhxbVAzazRzbjRQU0JTcHQ0YzRlQXpncEtaWlhVMk5HUXc4eHBHdUYzX2V3NU1QUEZGa1RUTng2Vg== returned response: <Response [200]>
+2024-09-05 22:32:22,105 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCS01LYmlSV2hHWFIwdWlSb2tGa3dPUjV2UVdFNGh1alozRElRdVE1MXpMd3dVVVcyS3RfUDN4VWNNMWI4Zmo2eTdYS19xTExQcThoSEtHLTczVDNmSg== returned response: <Response [200]>
+2024-09-05 22:32:22,472 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDeWFBV0x4QnlCeTBJXy03eHNoUFp3c1FqX2NVcGN4cm1HMmpGV2VHOUVYckVId016ZEZkSjlJUGJGRWpHWUI0czBuN2dvNFhRUDAzTklrMktoLTJOUg== returned response: <Response [200]>
+2024-09-05 22:32:23,290 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCVXlIUXg2eHhOWmF2R0t5aThBMEVnSEFwRGtYWHZRandlUk80OHcyX3J4bWtQYWRiSkJkQkgzRDJieG5kNVoxZkY3ZGlsd09tMmVHQm1SUXlwUDUyUg== returned response: <Response [200]>
+2024-09-05 22:32:23,784 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBUTZkM0hyYTNlWWljUTYtTXQ1eG03V2xNTjBRekRmaDByY2Q5Vkowd2NRS1JhN0E2c3ZSR3JRWFgtOHZYNUd3QzR6d2hmMUwteUdSVXR6b1pJS3BqRQ== returned response: <Response [200]>
+2024-09-05 22:32:24,193 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEazVaYmVnTEJ6eTVLUm5zeUlVbUEyS3NJMU45d2RlaklhWHBlMHpWWmJJdW9PeHE2ZF9CelJlQWdmYlg4YjFxUU9ST2xPbXY5OVNGZFJJUWlFR1hoVw== returned response: <Response [200]>
+2024-09-05 22:32:24,491 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCaU1EUHJXN2dWaEJ3YlU5clRLS0VhZ2h0V0s2QXRDUGJiaFlsVl9xYUNtMWlsVHRBaWt2cWxYcER1cFNTVXVHNlRpUTg2clJHTGJ6YmJJaC1tYTBraA== returned response: <Response [200]>
+2024-09-05 22:32:24,844 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFESkpVelNHSGJNMzJnQnB0RFljWUtKNE11N2pUVTBSY05CZ0FlSnNMYnRWZnFlNkpteE1XWWZscFNOcmRncFMzckRHU01keVhNUlFIMDVSWG1RcENlTw== returned response: <Response [200]>
+2024-09-05 22:32:25,262 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBeFg2M2pkYTRBZ0dOcHBOWXhtYzNHLUhtb2k2RE1iQ2xRdUpobjU0Qm5ocXpDN3RqMzRDdUxka25CNldlUWstZXQ4QmdYQmZ3Z3ZnY2lic0h4YzNuWA== returned response: <Response [200]>
+2024-09-05 22:32:25,641 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCeF9FTWxKajc1X1h6SGJUN09OSlNXRHdMb1RSRE9pNElEMU03aVVfcF9WTkxuNmlXX2U2cFNfdjF1RVZwei1BQkZ4SWpnVUdTRzR1ZUdET1ZOdktBZQ== returned response: <Response [200]>
+2024-09-05 22:32:26,277 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEd0tpck1WR2ZISVYxbExHQlNzb2NxMmRUbV9JMjRWVUZLZ2ZfTnh1UDFLalM5ZXpoN0lzbTJlVkZkY3ktbUZVcHdmUFFUb2VndnZXckpWQk5tZ1JZTg== returned response: <Response [200]>
+2024-09-05 22:32:26,566 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCMEk2MDhsczd1ZHYtN2JQdi0wYS1XRFNOVGY3UkNmTk8yVWkySGkwTF9GV1ZwOEw5VEcxV0lpRklxVXBfOUFtUU5aVi0xdVdxWG5QNXFKdVhuTUVfbw== returned response: <Response [200]>
+2024-09-05 22:32:26,985 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDMGJJbzZvMGIzemhWZ2RpeXdwYnZqNHBtZGZudlRtaFdENzFqUnRYNHFRNklkb0MtRE5HcFlhTDRZamZFSWJZcG5Ma0Z5eldmdkJSX1MzXzZ4RDI3Ng== returned response: <Response [200]>
+2024-09-05 22:32:27,347 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCdEVIeUtIZ1pWeDA1Z2lfRGwxR21talZjMjY0Y2pCR3FFdWxkaGxiRG9WMUxTNUY2RG9qbmd0MmJjV3VvYUN0MjhqTFB0U3JyY3pQRDBoN1RRQmEtMA== returned response: <Response [200]>
+2024-09-05 22:32:27,652 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDTko0eS1jampKZGkwNVdPUF9SaWFLSElpbGxBWjZXa0lyNU1ISFNiMV9TRVpnaEpUa29Ia05HN1BkOGxjN1ZZTWJ1b3g0VUpoYVBwVFdRV0gwMUViSA== returned response: <Response [200]>
+2024-09-05 22:32:27,998 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDRUlzRkhXMmxobjBVM2Z4MWhjU2NoN0JZTVRkNUNXYzQyLTRZQ1IxZXg5X3Fwei1xakl4N0k5M0xfVy1WYUpmT1hkMXJSSklRME5ld2ZfRUc5SlpjTQ== returned response: <Response [200]>
+2024-09-05 22:32:28,385 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBMXpsYTZrMk51clY0WjR2YmdQTFp6djMycG9rVHFiQ1NhY3FEcEJXR2FidEFaYUR4aWFDN3drZkM4VXBXQkdlVENXM01rcUpLRTdXaEFKNGN6bEtCcg== returned response: <Response [200]>
+2024-09-05 22:32:28,744 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEcl80Sll5d1ZfeHBPeVU4MUNIU0NjaWYtUlBSZUlYakh4X0M2T2RtVjJzamhQTkdMV0I3MDJfeTdDZFJma2FINEY3MnRQajhCb1FTYVhwTkFVNlp3SQ== returned response: <Response [200]>
+2024-09-05 22:32:29,059 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFETE5TdmlialJBajRRa1ZBV1NRdTN3bDZYdUpFTnVsa1R2RlFWY2hYVmQzMUs2cXBDbVp5amVPYmF6TUU0Yzl3cXFNOEZwWTlrV2h5OUl2LUwxd1d4WQ== returned response: <Response [200]>
+2024-09-05 22:32:29,434 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBZUJ4WkU0VVhINmxTdTRCcmptaU14bmRoS1pIT2JqejlUb1dJSmdQUmdRNUctS0N4c3VkNkNLN25JU2dsTWhENzZTNWx1bTlsd0JrZlRjbTR6cjlxQw== returned response: <Response [200]>
+2024-09-05 22:32:30,117 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEOEc2bGpCeDdodWlQUWZ2cjFycDlJa3MteEVNSVdKMmlsMW5EYzNBM09TU0RNOHV3aFFGa1NaNFZhMW1RbVlHZXRMX1dMV19kMkZUTUZGb3Z0dFhXSA== returned response: <Response [200]>
+2024-09-05 22:32:30,482 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEem1ILTJkXzFjb05QN1BJRW81N2Z1MkpvTGpOZG55MDVyRXI0NktxSHZrYXF6Q2c5MkJtUkN6b0RaWXBNQWl3TzFaaHpsbUVtaTdkcjh6MkhOX3ZHVQ== returned response: <Response [200]>
+2024-09-05 22:32:30,821 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEMmpzMWZVQWlqamZZOEt4UTNtVHRoRHY2R2RvRlU3M2V2VzZkbldIbUdiN3lQekN5c3BpTENfNU9WdFlxRk9oaGVFN0hDNjF3NUo4ampaMkFaZFlUZQ== returned response: <Response [200]>
+2024-09-05 22:32:31,391 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEV19vemJKUU1ObC1sM09KbE9BdnRUYmJ3WGktT0lnd1RHQkNuMGFKUS1hZW90amd3ZG9SMXotUUg1VVo5ZzRvbFBjVnhRZEhTN09KVVFYVlN6Zzl6aw== returned response: <Response [200]>
+2024-09-05 22:32:31,772 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBODVYRVpROFlkUElmNkllMGt0aXRkSzJCNGpNY2QtSWxRa0hydElhOFZCcFRtRmFYMWotbWUwOWZicWFNSm5UY3g0RG4tejl6c0VZUFRCSGx1MGdIYg== returned response: <Response [200]>
+2024-09-05 22:32:32,190 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCUGVEdUxJTGh5OWhDSDRGc3BQMzgxUHhDWGxOcDZEVng1RzE0VWs3dXNrVmNuOVJfM3k4dXVwYWhSdm5Wdkh5NEhGYkJZVDNXaGdMWGRac0Zxd0wzTw== returned response: <Response [200]>
+2024-09-05 22:32:32,603 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEMGpkZGU1MUYxZTNleFJpZ3E4MXg3c1BuMTNzQTBRR1NXZ3VxUWVVMHVoWmt4RE9aTE1BOFRtME5FMUNtd3Q5S042TFJKRzNYS3JRaHdxc0VUYVFmag== returned response: <Response [200]>
+2024-09-05 22:32:32,965 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCT3FESFpVbVM0OHRjTWgyVmtxVTRlSXZWdnpqTEJMZUFFcGJMbnBOcndFRU81N1Iya0d3X3JNazFCaVFSS2thUUY1bUVwUXctV3ZOb3JIcVdmcUdqRQ== returned response: <Response [200]>
+2024-09-05 22:32:33,623 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCTXdUSUw5bUlHcXNGR0V6R0lWdEs5VHd4Q2Y2cmpnOXg1OS1zSW9XdE9uNldxRVpmc2ZHM2U4N0NiUW5BRzAtRVBuYVZBUDVub0lmVTEtWkhyOUNJeQ== returned response: <Response [200]>
+2024-09-05 22:32:33,903 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBQTJRc2UxSGlDbWItNmtHNzhLRjRuLUZxNzMwUXNvLVFTck5YanVnZGg4X3NoZHhRVXVxQ09PSF9oSlEtLS1Ua2h2VG5Yb01kRlpRZkhjQ0VZdTlfSw== returned response: <Response [200]>
+2024-09-05 22:32:34,336 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDNTVuZlNBTWNsR1NqS0ZoTE1fQnpYOWtoQjMtYjFZVDV5MWpLanpYVFMtaXUzN0ZDLVhwOTVfOE5XQ21WZVRmMWtTbmV6WUg4OTdocnBMOUdweDl5SA== returned response: <Response [200]>
+2024-09-05 22:32:34,994 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDYnVUVGpycTM1Qmt1Y2Rib084MDduTUJtTko3aGMtWC0zT2xLZWhNZmhMcURDbkpLWDQ5TkxZYVgxYTd3OTBlclpUN1NDQTNHdlctczZjSzBmLUY2Wg== returned response: <Response [200]>
+2024-09-05 22:32:35,334 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCcWk5a1IyVEw2WHpZYjR6VEtYT3Qxa0d1VFZsSUpvMVFPRTFvNVIyU2s0SGdRUDFBXy1mR0NRdlNhOFF3R1dMVnNrYUZ6bHhDOWJlRnZRLXU1RlNCZA== returned response: <Response [200]>
+2024-09-05 22:32:35,615 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDV0hQWnd4dm5OQkVSc3Vtb1Zab0dKZmZtUGpxc2ZDdGI3d1Z4WnZjZ0JVVUZ6RUJ6TXU4cWl6MkduMmRtd01UODNTd28zR25HVjY2dXRmQTVXdXVteA== returned response: <Response [200]>
+2024-09-05 22:32:36,133 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBdjVpRmFDc1RsQnN2LUxwSV9fMU92SWxoMTRXTHpOT3NhRkRPeXRkdld4NU9MNmZKQ2JmRWQxZF9aWEE0cndQVjhYS1hFd2pxaWdKZDAxTnh2Ymx2VQ== returned response: <Response [200]>
+2024-09-05 22:32:36,759 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDcmdBeTE5YlNLd21aQjRPdHJBYjVxU3d6TXFJYm5vVHVtQWFQMDhjR1NMc0tiZ3dKdThMWUZId2tZVnRFbk93TThwci0zWGVBMXdkdUc0Yk1yLUY1RA== returned response: <Response [200]>
+2024-09-05 22:32:37,028 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBbHV4b3B1ZTJ0Q2xMd1BpejNlNWZmbU0tUERFbTM0cFItUGRuSXBnOFlzc1pQLUxPZFVyLV81XzF4RXZNTFM4NXVHaGZRS0dha3pxWUV0cUJ4U3k4aA== returned response: <Response [200]>
+2024-09-05 22:32:37,449 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBM1RnTGRwZ25iUUo3UUFUWXVaYVJEV3Zpb0lhRjlQV3YxdHl1c2ZMVGwyT1piekVWYXVyaFRSWTAwYUxuRzNnWDNWWW53alFhZHZqMVJ2RnpXSG5rbQ== returned response: <Response [200]>
+2024-09-05 22:32:37,828 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCbmd0djZQS2xPcE40UkgwV2NkTE1ybGFPYTBsbGVFVGdzSEZxZVF0VGd6c095enc5MkVkYU9LUy1SOF83ZHB6akVscjQ5YWlNVUtjbUFDRUdqd3o4MQ== returned response: <Response [200]>
+2024-09-05 22:32:38,195 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCV1lTMkhrdkZmaXI2M2J0U19tSmRXdEEwQWMtdHJDOGh2MTlLQ21UWmxKQXoxN1hfb1RSV0N0Z2pBRy1wdFhGWjhWX29GbHBKc2lFSERlRU03YjJycA== returned response: <Response [200]>
+2024-09-05 22:32:39,741 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDZUtCSFJkdTNNY3ZUWDVqODd5Q0tHN19Lcjl1M0RtTnYwSDZkSHU3Z1Eyc3VaYV9BbnFxby1JbmstRF9MMGkzNVItb3RWaC1GWTVpUFVjUzUyLXNVdw== returned response: <Response [200]>
+2024-09-05 22:32:40,008 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBNG1jbFR4ZmE3YndvMGRaRlpNbGpUWXItTDAxM3d0ZU9zMm9TMHVwZTZ3VWFFaEVUeTlDeVRpZ01aVXYyWXVZZEwxWURPc0lWT01sOVhIbThCSEl3SQ== returned response: <Response [200]>
+2024-09-05 22:32:40,588 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDQWFhV1M5eEx6OEg5QWItRmVpMko2OFpMUFZZX3U5Mkw3ckFnQW1yZnE1cGlnTDc1VmpBNEFkM2Q4dmVTMHlVdFZtdHJyRmh3M2ctSTh2WU1ReU1kSA== returned response: <Response [200]>
+2024-09-05 22:32:40,971 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCd25lc0xMTGpya1VCTFdvNWVfQW1OMmtpWUs1ak8wamRfSUZrVG1WNEhDWXozNDdHRUV5VzFIek5Gdm1tYzdQeEJuS2dkeWk0VS1TTU1tWklUZVdoUA== returned response: <Response [200]>
+2024-09-05 22:32:41,247 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEbExEajhlTXY5YVlTeEUxR1g3TVBNeExuTkhzUFk4LThZOVMtUXRTaUJYcF9CWF9uTFRiUGU4dDd2NC1RWHY5R1FLSGVQY2UydTE4S01mQW80ZG1iRA== returned response: <Response [200]>
+2024-09-05 22:32:41,624 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDeXV3bC1JcEdadDhHajBOWVhzc1hZNTNISUpXWi14QzE0cVY5SW16R3hBc2tJSE1aYndvLTNJTGt3bC1hX2huYm5ka1RwSU5vOXZWRll5QXFGZE9hUQ== returned response: <Response [200]>
+2024-09-05 22:32:42,002 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDVVhvV3hMZ3J2UjdZNWxJRmtGZmppWW92cEZZN2tHYlRYMGZYVm9vRGJCcjg3UWdhbnJIbzd4QWExQW5lRjZpY1VOY3R4Sk5yNVF6bERienZHR1YtTQ== returned response: <Response [200]>
+2024-09-05 22:32:42,672 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCVC1PSW5nWlZDbXJOVTNkT1REMUZzVzBuME1icnJvSVNDT0FlNmF4QXZoWEdDdV9IbEZqU3E0a0VtWWlaV0I1b0RjeXNvcFgtQUVEUGJXTU92QUh3Qw== returned response: <Response [200]>
+2024-09-05 22:32:42,954 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBZjhzVlI2dndzN2Q4al9FOTFMNHBpb3lpZ3BiQS1OVVhvaHY1dTBDMVFoLTVjMnBZN0dSUGdRdk9VdDB2Vy16d00yUUs4YUtVVUMxUjFTdXZHUC1Waw== returned response: <Response [200]>
+2024-09-05 22:32:43,364 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFERHExQVdtclZORk11cG11VGctYjZTYWlwV1d3OXJkc3lSYzhHRWlkY2R2WFlDQlJLd3Jfcjg5aktma3BPVWt3UmhpRURsaVVYWWJENEh2ZW1fM1RIVg== returned response: <Response [200]>
+2024-09-05 22:32:43,722 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEcmlUcExTa3RhVDU5SW51VnhPZldfWDM2cUZCN0lnS080a2p1bmZJRDgxNmhwY2ZWcE0zYUNkR2xsM0stYW1wNFJtQ0c1SUF1NFQ2eU5RQlZEV1phNg== returned response: <Response [200]>
+2024-09-05 22:32:44,137 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCbXVzVDZqdGJKVC1oa2VfTnRWV3RmOGhITDdnVVRzM1JzVjdoYkk2UmVjNnZlMXlOOXZYYW41dFNlcUFvalhMWTZaeDQ1YlROY3FyaGdQWmRUY0ptUQ== returned response: <Response [200]>
+2024-09-05 22:32:44,406 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCWlNwWFhqTHZKMXNBWW5vNWJYU2RIOUNlbmVOM0xfNnhCSTNyQnNWRnRXRWszaVo2ODFEVlVXbFA3WlYxa3YtYTJoN0xtcjdRc2gtRzVGYS1GWW1URw== returned response: <Response [200]>
+2024-09-05 22:32:44,780 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCa2tBcUxfNjdZZDRyWWptRFNkMERFV3RvRGZlOVE5Vnc2enJyeWJCcW5WaDM1dVh1R0dwY2VjRUxrX01oZmVzWmRZcFduNUZtVHE2VWg0eVF3ZmdLeg== returned response: <Response [200]>
+2024-09-05 22:32:45,304 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCRGFpTnVBejRzUl9mTkFHdmxYamRsQVgyQUdGRXF3YzNkN1hzYnduUkd0RlFCdnRJUGNZdWFaOVZwMng1Q2RZT2l2TWF4aXBLX0ZsR0NWRWhfaVlUUA== returned response: <Response [200]>
+2024-09-05 22:32:45,848 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCbmVYOHdzYUV0Ump5Vi1FVDR4NjFKVjBqOUc0cHZQWHc3d2pFODN2ZHRxeXNRZEw2TmdXeFJBNHdCbzFId1VpNlZBcnlPcUc4SlBEVmljbkpXWTQ4Rg== returned response: <Response [200]>
+2024-09-05 22:32:46,306 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFESTZjUF8yRzlSa2w4YkJRc1ZwSUlpb3RNWGFHR21veTUwSEFwZFYzOHhTWHN4LUZucGotTEpqOFZ4LVpqeEtFUFFwdmtxQzFMclJyVzI2eWRSYlJNXw== returned response: <Response [200]>
+2024-09-05 22:32:46,850 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBLVF0Z01oS25ad0hiTHc1XzNsVV80czZnVUpSZlZEQVpRRlNtNm5DLV9qRWdXX0ZtdlZGeG9TYzU3VUNUYUh4ak9PVGxHczA5QWJWd3Q0d3hIcmRWaw== returned response: <Response [200]>
+2024-09-05 22:32:47,260 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEVHlteU82aW1vN1RrekxoQzQ5ZllEazZPbzFUaktVSkcwaVJpYll6TDlMMW1rOEd5MktWeDc1QWkzU2YxUjM0YVpIcEhTQlB1Y0VyRUN5a19uTkdjNA== returned response: <Response [200]>
+2024-09-05 22:32:47,628 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEQnJvaU9aR3hiMEJKbXlJNXdVUXJUWmdmZXlMVHFTbDFpVTdobklnODFpTDJLR0xOaWdrR3gwN2Y1cnFmS2JyVktBZTRHMzBYUUxiYlRNS0NPNDEwNg== returned response: <Response [200]>
+2024-09-05 22:32:47,918 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDWUxqZUJYMmZjWkVGTkp5V2w4MjdPeXRxc3ZRRm5TV20yN2l0YndSUVhfSF9ISnFDajctWmc2eVl2azZ4d2EzQ0dfajNjMjZsdjhhZ2JmdV9reVprRg== returned response: <Response [200]>
+2024-09-05 22:32:48,331 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCWDVPSlJUdjNYT0xtTVdYT21vZlZpbXhzeE9MNzRhMnhRN3Q1WHNtV3VWSjEwRGpCRmJUUV9jeHl4TlBWSjdYTmdRdDVIVkNvZ09UMWVQa2V5ekhaUA== returned response: <Response [200]>
+2024-09-05 22:32:48,620 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBNUdLYzJlblZHMmQ4TXJScXJwcHFHUWJudjRjblVNTWRYV2pjOWk5WE03TXRfYl9qOG5xcEFCYkJnMWVZUm5Ya1FHUVJCc2ExTDlYSUxuR0lKS3FmYQ== returned response: <Response [200]>
+2024-09-05 22:32:49,012 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEN3pOeU5SdHNrcWw5ZWZveWU4RWpPLURaX1Z2V1Iwd2pBejc4cnVBVHhEc2ZWekljUF9jX1NJMDFyN3lQdXR2V2txUmpPRXFpMHBNMDduTjNNMkd0Ug== returned response: <Response [200]>
+2024-09-05 22:32:49,360 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDdW91aGQ1LUVlcU5uS2haMHN0OGItYTI3bUpkdWdLR3IzMklKMi1ZMURCYzkydkE0bG1uUlotYU9ybkdFSk15ZktlY2t6dkkyME55dGdxVlpJeEFJdQ== returned response: <Response [200]>
+2024-09-05 22:32:49,712 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDQkhQaFo5MGZxTVY2ZTBIU1kyU1M3c3l6TERlUzNIOGhiNW9fc09qZ0k1SHktdFY3TGRtY29xTzZuM25GVDZMOTgzckJoRGRkZXJoR1NIYmpkYWo5Sg== returned response: <Response [200]>
+2024-09-05 22:32:50,048 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBX1BpSlZVMlJnYmFZVU50aVdrWDVtdkFtZHAtZ2puX0NIdmxaQWZUUDEwVkNqT2c3R1RWU1lJbFMwZmZFY2JOZnRCN0syLTFkczhpLWtEbkpaUGlkUw== returned response: <Response [200]>
+2024-09-05 22:32:50,549 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEZi1uak4zTmxhTkVPMnVSQV9YV3RwR2NtcGRNSFJIODh6TU4zM2YxdlZueUthQTVPYUVmQXVNWGJZS21OaEo2VkZhdXB0NEc3SzhISjBCUzFoMGZJaQ== returned response: <Response [200]>
+2024-09-05 22:32:51,058 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCYnc0ejk3QV9UWE9NbnhFVDhUSUMtY2psOG5UaFZTSmZfdkZQMzEzVXlGTmdPWFl5Z1llcGx3elRhWXZFM1dNTmwzWjd1QVAzOVVYSVZwMWQ3UlA3UQ== returned response: <Response [200]>
+2024-09-05 22:32:51,480 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDTVQ4NDBUUkRxTThKcHN5YXpuMVFYZ1VHdXVIcTNkUEQxeEFvS3A3TENEd0J5V2xEMUVaV09UR3NRXy1jT0tralRiVmRhZUZGY3FqT3l6blFvVmJwYg== returned response: <Response [200]>
+2024-09-05 22:32:51,807 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBcTAxX1hTNTJVVEpMNVF4YW1pZGdLSFJuRXB1Z1RWd0JuQWNISmhlRi1KREV1bVNUWXU1bUdtanFPOUhGOXljUGlPaFkxTFBJQ0xPNU1ScVhvczR1bA== returned response: <Response [200]>
+2024-09-05 22:32:52,114 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBclZBTE1YbU1Ub1pHb1l4VHd6Q3JsYVkxM0xVZkJwYkN6Tm92UFVkNVRoVkFKa0Yza2JRTWpLZV9WVHF1eHRZMU5ObEs2WkdkV1U5cERrRVdUbklUdg== returned response: <Response [200]>
+2024-09-05 22:32:52,504 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBWW9tYmV6NUZrczJfRjR4QjEwRjFLalg2Q09ndDh1cGpFU1lubGlwVE9uN0RsMUNuU3BQVzVVUmEtNWFNb0M5X2pqcjd5VG4zSnEtdGhjT3k4QWJ0eA== returned response: <Response [200]>
+2024-09-05 22:32:52,827 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBTXFEa0EzdHp3TGlIMlpMLTIwd1hNREtRX3YydlVaYldPdFlvbWJMdWRPRHBOOVdubzVVamp2NUZubGpRd0J4TTg4bDNKSFdBRWF1d051VjJJdFR1VQ== returned response: <Response [200]>
+2024-09-05 22:32:53,217 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDR0N2c0tfWWw1V1NhX1pVdE5xZUlKWWZiR2Y4N3NYZjhFbDRHN09mM0pPZExLYWdTY0hTakd3c01NVWtnaGwwUU9BQ3ZiTGx6MWZPQVNZSzFuYkh0Vg== returned response: <Response [200]>
+2024-09-05 22:32:53,549 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDQjhSYWxtelpPcEVrdVljaTd0WG5YMzd2V3VoWlFiV2ZfVXJ4VHJJMS0zWFktVEIxLU5sWGNrdW5JamE2QUd1U0p1Zkk4VnpPdVJnQ2VUNHByQkQ1Tg== returned response: <Response [200]>
+2024-09-05 22:32:53,875 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCR3R5VEs5enNkNnJTTy15MktKQ2hkbmJTSGhvUlZ4THNLV3VqdlRvYktmNi15VWl1V2F5TmN6NkQ0NnZUREo2d2pnSXVlVHZFckVkLXl3bEwybm9kUA== returned response: <Response [200]>
+2024-09-05 22:32:54,226 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEdHVVd0pLSGRPcy1GU21HQkwzR3FHSmxvNkJydkp5TTVKcUhEa1h0LW1hbmNSaDdKLW0zOExYTm4yU0N4VVBsX1IwdGFVc2RwOFdwZDhzNkV1NUgtUg== returned response: <Response [200]>
+2024-09-05 22:32:55,256 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFETW5ZQ0prSjI2c19iNWk2NW9aTkszR3Q4aUItMTBFa2JGLUtRZlY5NzVocGpJSFE2UEl1ZUswdC04bnVQYW5VcUFiLXpGWlk4Y0NNSmhFMnFnOWpOUQ== returned response: <Response [200]>
+2024-09-05 22:32:55,647 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEUVNwbFQ3R0pwRzNhbDROVUJQQjVRcUREOEVrelZkLWZzNG1meWhoRXNiQTkyTjdPWl93R2FDUUE0ZGRCUGJvTk1LeXJaNlhtc193VkZyM1BuSWJQdQ== returned response: <Response [200]>
+2024-09-05 22:32:55,946 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBSWd0dG5mYVN6TzBZQTkzbjhnZXFqY0tCU1RxT3ZodVlZQ0ZWeG1iMnB2TlNYSlNCVEVON2k2d1F0bnNoZmVfV0F4ZjlNQUVMbXY3YUNCdG1LWU5hRQ== returned response: <Response [200]>
+2024-09-05 22:32:56,323 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDWU51MHEwZHBpZW1FMnZrWTlJMmd3eEVHX3lHSFV6TzFjVU16a29QQUtnc1Y0d3oxZ1kwYkt3OWxCekgzaWtKRl9fS1NfN3dYU0tIazN5eUhGZi01MA== returned response: <Response [200]>
+2024-09-05 22:32:56,697 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBN2g1bnlockh4cDVoVHJKZ1JrTnBkMURYZVRyOEhfb0JROFFBSDkwcmVLNk5uZmNXRWlPWmdhQWVHQzNXQ1FodjBSM0prYXFwYklJamE4b3hRZk9ZbQ== returned response: <Response [200]>
+2024-09-05 22:32:57,033 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBUTJvZjNTV0RfSkhRRy1NVHZ3cUlMa0JmMTdWd3YzX1JEZTF5WGFaY0duenRjRHUyaU5hU0duUHdxMXVySTN1ZjdKWERlQnYwbnVhT1J1bENSMWJMdQ== returned response: <Response [200]>
+2024-09-05 22:32:57,356 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFER2VNSUxJRzkwanhvWnFYYWRUV0tFbzgwYUxYYzBxUmdmdVF5a2J3bjVEc1RoZlppRGRpSGZWMXRad3FDTlBXWWI2UlNkVUYyWlhDWGhiMTBvLUVxYw== returned response: <Response [200]>
+2024-09-05 22:32:57,752 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDclRMdTdPNmZ2UE16QkljNUtXVzVNNElEbzlvLWxjLWRibG5TeG9tcjh4UVJCZXFIMTNZM3hiVHhkY3oyU3k1MEo3LUJQSDJiZTBjWmVyUTN5NjVtVw== returned response: <Response [200]>
+2024-09-05 22:32:58,059 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCMVZ5YzZHbElSYm1jTzVFQzBWVy1HdGFHMTl0NmFaQWY3VVhublZrYmxOWUh1U2NCUVotUGhvQ1UwVWN1RWFkek5BS1VXdGJiZ0VQTUVGZm1lZ2p4WA== returned response: <Response [200]>
+2024-09-05 22:32:58,428 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEd1hpWWlGS0lxalFheS13VHVYb3NhVFFOV0tmbGtxZXJ6QnNxNUhEaHRXbmFGb0tzT084OVp1cThXVXhncXphcnN5aGZQdHJjQUVQOU5BR25PdWlKSA== returned response: <Response [200]>
+2024-09-05 22:32:58,815 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDNHduOUVaWi1PSkFTZVllMThNWnJUOGNXNWJjbUhhekJjVGpLTnVEdU5tbVlnRE5vVE5Obkh5bWxEQmpwQ1B1cXVyRThrUnJEU041UThrc041RVBaeA== returned response: <Response [200]>
+2024-09-05 22:32:59,452 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCSkpEVFZRbWlVMXVZMW1JbWdwQzlIMTRYUXRWUjJpOVNSMmRLR0dQWjVwa0IyWW5ncTRVaFJsM0xTdm1PTU5JeWgtTXRmNWRxSGdLVHhiLXVvNTY5Mw== returned response: <Response [200]>
+2024-09-05 22:32:59,715 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCVmRfNV9vMmVzWU1MaE9wbXZqa0RaT3lxdmtMQ2RMUldrOXhuVVVFQmdkbnI0M0VUWFo4d3A1Yy1IajNaSDJLbkJESF8xSkxUUU94SUViOVJxYmI0Zg== returned response: <Response [200]>
+2024-09-05 22:33:00,135 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBaEEtVS1NVXpsc0FST203X1lETXZZY2ZDdjBMMzNtcHV1YVZxQlFaTmZVOVRQVlJmOG9Jd1A5a2p2WFFwQThUWXVIak1YOHQxbFZYT1MxenpCOVlCNw== returned response: <Response [200]>
+2024-09-05 22:33:00,529 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDT2NVdjdmSGkzV0xIbFF0VHNCOV9mNFh2NGcwMktrMFV3OUlkdjA2cXZ0Y29VV3lpOTM2dXBva1VMMkxDY0RnRHBKeWRUQjd4eW1BRy1LOWwydFQ2NQ== returned response: <Response [200]>
+2024-09-05 22:33:00,892 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDejBxalFVaE1IOTR1VWxRb21Yd2FONnVTa20xeXAySVZUcnAxREthZTRobzAtbjNfLVl3VUdWbkR0MU5ucDhLMXVmWFdhQXBQY2dOWVIzZzR1RGZGWA== returned response: <Response [200]>
+2024-09-05 22:33:01,244 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBbjZiQVlwU01Id2hPNmJ3V2tpdF9SazlJSFBQUnhRRnhabUF5YVJRSmNEeVVxMkY0NUllUWZqTUpKaVAtZjFHaG9zTmlHdHBlbEl6R0l3UWpfcHJlbw== returned response: <Response [200]>
+2024-09-05 22:33:01,944 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDekZ6SC1xb1E1SFRpRWpkbzlKNzdlZDF2ZmIwSUEzTmhUOEhlWjduWEZ3clc1X0J6Q3JWWnk0b3MyS0pXbXVubkNkYkpqYWdnMzMzRkxnczl4SVRKRg== returned response: <Response [200]>
+2024-09-05 22:35:15,119 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDUEcya1Nrc1BpUTJodTc0TWdqWkM5dEdnUnRWMFZtaFVWUlZmMVZUdXBXVjRsQW9fOFZYQ3Y2SV9VcTk4VVRzRWtLOG50cFZJOHhYMmp1ODhvMzh1cA== returned response: <Response [200]>
+2024-09-05 22:35:15,732 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBdWlXc0hITGZmbWtkdENpcHg3SnQ0STBNb2pGamZHd0VYTUhqamZqeEFrMnJLSXFfSzFaVjU4M1Z3elc1cHd5WUUxN0t3YUtnNWZRSFhHMmZKQ0FiSA== returned response: <Response [200]>
+2024-09-05 22:35:16,141 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEd0lJQkMzVHpHci1ESGJ6Z2QzS1R0TkdGTXJYN09NN1VHcFh1VWFDMGJmQmQ0aEFBOXUxU1dDcU41TEREbmI5ejBVNFJPTkowS1dieW0yeVhRdHllSA== returned response: <Response [200]>
+2024-09-05 22:35:16,475 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDcjhoVjE2MzNDX1JfLWprOUhTd3UwSmZtb19nZERjZUktV0lZU1hqLWNrWEdSejVzVHdGaTgxVlJrYm5ZenVyZlA1c2d6Z19IUk94OUdFbWZKNXhQUA== returned response: <Response [200]>
+2024-09-05 22:35:16,962 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEeVg4STRuUGRJXzdlVHVZdjhrSDRZSVAtb1NfT1FFeEUtdXk3Z2JrSFVxLUhGcmdqRTZsNVlvd252M3dPUGt0SDhwM0QxUGFIcDd0SEtVWnVOWHR5UQ== returned response: <Response [200]>
+2024-09-05 22:35:17,369 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCdHI5YjdjM2ZxczBzR20zTzQ0SlpaYVMyQ1JsQmJRQ28zMHl1VjlaUE9NdE9yeUpOTU9HZEM4UjRRbjNfNF82UVd6UUVhaXREQTcwN0MwX0NWT2xOQQ== returned response: <Response [200]>
+2024-09-05 22:35:17,781 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBbTRZM1JIUHItM0xKTjhSWk9xRHdEV1JIaVMtejV6YmVILVhvWWwxOG12M2RLb05UU0YtczZDb3VZcjB0YWpYVVdyRFdyWkJLeG4zRmhBMlR2Z3VpVA== returned response: <Response [200]>
+2024-09-05 22:35:18,188 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCY1BDbjVUdkdmbDVBaUx1OU5Ja0xvWFhZNEtVdTRWY2RPOHhyWm9ITGNrYVFWcXNmRjhpekRYR3RyWkpCel9jQnhmczA0ZXZ0bnlPeThMMFM5d0pZdg== returned response: <Response [200]>
+2024-09-05 22:35:18,806 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCNXBkWmthQUVlS29zRlJhSlN1M242d1YzRDJmeFJIN0lxNjhLZHRsSV9ueWtxSXZpQWxHNXVzdWMtY2pmR3VTamMyYzNoZExmNTFrVmlKa0d0NFllZw== returned response: <Response [200]>
+2024-09-05 22:35:19,112 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEcDlEWmtLR3JhWjl1Tzc0dVFGdHF6UTNKVXAtTHpyYk00OUo1ZzI0VDIwZ05ac3RRWlktTGJGTExOTE1SSUl5VzhfQTBONXh4OW9ha1Z4R1JyeWdpNw== returned response: <Response [200]>
+2024-09-05 22:35:20,340 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCUWZxclA3Tk9ULWZYTlRrU3JacGsyT05nZEJhTzdWNlB5STVsZ3FKU1NTT3JNZWQwNTVtUG1RU2dLMWEzeWcxZEFHOGY3b192M2VjRXZWb25fTloxRg== returned response: <Response [200]>
+2024-09-05 22:35:20,749 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDcGI2UWZRTFFqVXIyVm53eWItZHQ3ckpvWFRHeWhSOGx0Vk1idXpKYjFWVm93d28xclQ0MHFFMW4xWUtYekxnUWpWMkFGZ2Nrdy1ZTG1xYUhCWXVOTQ== returned response: <Response [200]>
+2024-09-05 22:35:21,161 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBb1R4LW84eVhQV2NscHJuN1EzQzNuMnhFNnhZOFRiazB3LUdpN0FoUHNBTEYzSnd0NVN5aW1ueklybERQUjEycW93Mm9jQU5BMVlaZHVVbTdSZXRyeg== returned response: <Response [200]>
+2024-09-05 22:35:21,470 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBYlJZaS1neDVfaC1FQXl5MGJEVjNrNmtBdEVVUmFONjlHQS1Ob2lqcm1fdk9WaXFkcWh1c2FNWEVfdlliU2NRTHVCWVg5aF9sMTd1QklKTlp6NjRKTQ== returned response: <Response [200]>
+2024-09-05 22:35:21,978 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBV29OZl9aVlJ0WUNybVdKM0NhLXdQbEU0OU9mWGRMdWJFa2doTHlKUUI0TThldnBlVzlldFQ0bWkwSS1KZWItd242aHp4Ums1SWxYTFJxZjUwOHVaNw== returned response: <Response [200]>
+2024-09-05 22:35:22,387 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEMVVRMDVGd1B1VjhsVk1ibW1WRlFDczgwVFNuMHA5YTRicXJ2bXV4QVBLT3FhYnllVzNNY3R5OThMZVVaMjRzNURDTjdqNnV0YlVuXzB6X0xFQm5Udw== returned response: <Response [200]>
+2024-09-05 22:35:23,426 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFBVzJDU2hCUXJSMndJdUlrV2pfZ09YNEo3S3FZblpUdTZNN0NjM3dLQTJRbjktTFBNM25oZGxHSjZwWTdsV0ktdm9mR1lTaXRDU1JpaHZGcmkxSThhQQ== returned response: <Response [200]>
+2024-09-05 22:35:23,822 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEajVqU3hsMTdzSC1fQ0tyYWtBaDlPeTVidDhReGtZWVJIT1RuTm9GeElxWWwwMnl1UWFkZjV6UEt1WVFNa0NVOFVxMUtPNEhlVkFsVXBQS1JKb0FOVg== returned response: <Response [200]>
+2024-09-05 22:35:24,151 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCZk9LRWI0MWNnY3l0b1JqX3hvMDFLenRMekxUSFRqTTI3N2U3bk1UZ093RUJmeFVTX3BYdmN3V21QNkdsVzlaTy1kU3ZqaGJreXN1RWV6VzZTRnBkTg== returned response: <Response [200]>
+2024-09-05 22:35:24,643 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFDOFpVWjdRZEtrdWtuSV82SnFYUDgxQVpTekkyUEk0OXRRT0g3TTBIZGc4a2VOT1lwbGduT2Nvc2l5c0MyX2owNFlic2xNMW1zc05wbm8tcHBjYVppMA== returned response: <Response [200]>
+2024-09-05 22:35:25,052 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFCNl9oUmN3dW1NRkl2V2hEUEh4b2lsZEVhZUhlZG4wc2FwYkdxVU0tdmpCRHlrWDNxNEFYZzRtVXBCZHdjalpGam5Zbkx0REJES2lscEZLakh5dHRMMQ== returned response: <Response [200]>
+2024-09-05 22:35:25,464 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEX1MwWEsyVmYzVzQ4eDJzZkNjS2FjMkhIR0ZGWWk5RmtUYzAzb2gydTlXc1FMN2tWanN5NERCNnp0TFJ0cC1VNC15dWVlZzZndTBZMnJTV3JEN3I2bw== returned response: <Response [200]>
+2024-09-05 22:35:25,709 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/59776154508/followers/?rank_token=59776154508_97e26533-9971-4f27-b028-e56a2c9c4fd2&max_id=QVFEc3pQRVFXdDZ1Y1BwUlhDSVV6OF9LdkplUW91Vm55c1hHd2plWjZVX2UwNnp0N2FjM0EwcUFQYmNkVHU3aHE5VVU3SjZhTDNnUzBuWDhLdW0tb1pYMA== returned response: <Response [200]>
+2024-09-05 22:35:26,061 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/logout/ returned response: <Response [200]>
+2024-09-05 22:35:26,061 - instabot version: 0.117.0 (bot) - INFO - Bot stopped. Worked: 0:20:44.198861
+2024-09-05 22:35:26,061 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/frankelliott/PycharmProjects/pythonProject/dank.insta-tool/config/engaged_ape.checkpoint
+2024-09-05 22:35:26,068 - instabot version: 0.117.0 (bot) - INFO - Total requests: 287
+2024-09-05 22:35:26,068 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/frankelliott/PycharmProjects/pythonProject/dank.insta-tool/config/engaged_ape.checkpoint
+2024-09-05 22:35:26,069 - instabot version: 0.117.0 (bot) - INFO - Total requests: 287
