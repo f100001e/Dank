@@ -29,8 +29,8 @@ def remove_followers(bot, followers):
 
 
 # Load login credentials
-username = os.getenv('INSTAGRAM_USERNAME', 'engaged_ape')
-password = os.getenv('INSTAGRAM_PASSWORD', 'Sonofhapu33')
+username = os.getenv('INSTAGRAM_USERNAME')
+password = os.getenv('INSTAGRAM_PASSWORD')
 
 # Create bot instance and login
 bot = Bot()
